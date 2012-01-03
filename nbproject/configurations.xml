@@ -41,6 +41,49 @@
           </linkerLibItems>
         </linkerTool>
       </compileType>
+      <HI-TECH-COMP>
+        <property key="extra-include-directories" value=""/>
+        <property key="what-to-do" value="ignore"/>
+        <property key="define-macros" value=""/>
+        <property key="optimization-assembler-files" value="false"/>
+        <property key="warning-level" value="9"/>
+        <property key="verbose" value="false"/>
+        <property key="optimization-level" value="-9"/>
+        <property key="optimization-debug" value="false"/>
+        <property key="preprocess-assembler" value="false"/>
+        <property key="optimization-global" value="true"/>
+        <property key="identifier-length" value="31"/>
+        <property key="optimization-set" value="default"/>
+        <property key="undefine-macros" value=""/>
+        <property key="optimization-speed" value="true"/>
+        <property key="optimization-assembler" value="true"/>
+        <property key="operation-mode" value="lite"/>
+      </HI-TECH-COMP>
+      <HI-TECH-LINK>
+      </HI-TECH-LINK>
+      <PICkit3PlatformTool>
+        <property key="programoptions.preserveprogramrange.end" value="0xf"/>
+        <property key="memories.id" value="false"/>
+        <property key="Freeze Peripherals" value="true"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programmertogo.imagename" value=""/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="memories.eeprom" value="false"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="programoptions.preserveprogramrange.start" value="0x0"/>
+        <property key="voltagevalue" value="3.375"/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="memories.programmemory.start" value="0x0"/>
+        <property key="memories.programmemory.end" value="0x7ff"/>
+        <property key="poweroptions.powerenable" value="true"/>
+      </PICkit3PlatformTool>
     </conf>
   </confs>
 </configurationDescriptor>
